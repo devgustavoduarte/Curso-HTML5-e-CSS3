@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminue o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+            <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+        <p>Vamos aprender a colocar áudio em HTML5</p>
+        <audio preload="metadata"  controls autoplay loop>
+            <source src="midia/video-game-soldiers.mp3" type="audio/mpeg">
+            <source src="midia/video-game-soldiers.ogg" type="audio/ogg">
+            <source src="midia/video-game-soldiers.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/video-game-soldiers.mp3">Clique aqui para baixar seu arquivo mp3</a></p>
+        </audio>
+    <h1>Reproduzindo vídeos</h1>
+        <p>Vamos aprender a colocar vídeos em HTML5</p>
+        <video width="560" controls autoplay loop>
+            <source src="video/meu-video.mp4" type="video/mp4">
+            <source src="video/meu-video.ogv" type="video/ogg">
+            <source src="video/meu-video.webm" type="video/webm">
+            <p>Infelizmente seu navegador não conseguiu carregar o vídeo</p>
+        </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: whitesmoke;
+    text-shadow: dodgerblue 1px 08px 05px;
+}
+img{
+    box-shadow: dodgerblue  02px 02px 25px 05px;
+}

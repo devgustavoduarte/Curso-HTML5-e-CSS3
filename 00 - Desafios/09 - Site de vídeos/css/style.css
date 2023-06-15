@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    text-shadow: red 2px 2px 3px;
+}
+p{
+    text-shadow: red 2px 2px 3px;
+}

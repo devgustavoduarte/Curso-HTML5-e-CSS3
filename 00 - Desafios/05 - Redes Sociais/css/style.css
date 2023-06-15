@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(250, 250, 228);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    text-shadow: rgb(250, 233, 2) 01px 01px 01px;
+}
+h2 {
+    text-shadow: rgb(250, 233, 2) 01px 01px 01px;
+}
+p{
+    font-style: normal;
+    font-size: 14pt;
+}
+img {
+    border-radius: 50%;
+    box-shadow: rgb(250, 233, 2) 01px 01px 09px;
+}
+ul img{
+    box-shadow: none;
+}

@@ -1,0 +1,25 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 28px;
+    
+}
+h2{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+h3{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+h4{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+}
+p{
+    font-family: Arial;
+    size: 14px;
+}

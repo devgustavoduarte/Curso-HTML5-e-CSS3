@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+picture{
+    box-shadow: yellow 1px 1px 25px 1px;
+}
+h1{
+    text-shadow: yellow 5px 5px 35px;
+}

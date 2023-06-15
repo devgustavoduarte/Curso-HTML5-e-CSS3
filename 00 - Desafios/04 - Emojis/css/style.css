@@ -1,0 +1,14 @@
+body {
+    background-color: rgba(110, 110, 110, 0.438);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: yellow 01px 01px 09px;    
+}
+h1{
+    text-align: center;
+}
+ul {
+    color: black;
+    text-shadow: none;
+    font-size: 15pt;
+}
