@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 005</title>
+    <style>
+        body{
+            background-color: #ffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: grey;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 350px;
+            margin: auto;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        col.cnome{
+            background-color: rgba(47, 255, 64, 0.452);
+        }
+        col.cgroup{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="cgroup" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Sexo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Angelica</td>
+                <td>25</td>
+                <td>Jornalista</td>
+                <td>Feminino</td>
+            </tr>
+            <tr>
+                <td>Fernada</td>
+                <td>21</td>
+                <td>Enfermeira</td>
+                <td>Feminino</td>
+            </tr>
+            <tr>
+                <td>Beatroz</td>
+                <td>23</td>
+                <td>Fisioterapeuta</td>
+                <td>Feminino</td>
+            </tr>
+            <tr>
+                <td>Oliver</td>
+                <td>24</td>
+                <td>Investigador</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Ferdinando</td>
+                <td>35</td>
+                <td>Agricultor</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Ronaldo</td>
+                <td>18</td>
+                <td>Autonômo</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>23</td>
+                <td>Eletricista</td>
+                <td>Masculino</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
