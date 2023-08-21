@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Aparelho em modo landscape */
+
+html,
+body {
+    background-image: url(../images/cev-landscape.jpg);
+    background-position: left bottom;
+}
