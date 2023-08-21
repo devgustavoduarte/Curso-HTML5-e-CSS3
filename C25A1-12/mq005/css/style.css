@@ -40,6 +40,7 @@ menu>ul>li>a {
     text-decoration: none;
     color: black;
     border-top: 2px solid tan;
+    border-radius: 5px;
 }
 
 html,
@@ -49,7 +50,7 @@ body {
 
 main {
     background-color: white;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
