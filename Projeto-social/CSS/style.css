@@ -59,6 +59,8 @@ main {
 
 #social-media {
     display: flex;
-    align-items: flex-end;
     flex-direction: column-reverse;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
